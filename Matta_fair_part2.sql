@@ -1,3 +1,3 @@
---CREATE SCHEMA IF NOT EXISTS live_inventory;
+####--CREATE SCHEMA IF NOT EXISTS live_inventory;
 
 
