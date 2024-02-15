@@ -1,4 +1,6 @@
-DROP TABLE IF EXISTS dih_stream.live_inventory.tbl_matta_fair; CREATE TABLE IF NOT EXISTS dih_stream.live_inventory.tbl_matta_fair (
+DROP TABLE IF EXISTS dih_stream.live_inventory.tbl_matta_fair; 
+go
+CREATE TABLE IF NOT EXISTS dih_stream.live_inventory.tbl_matta_fair (
   flight_num String,
   flight_date String,
   origin String,
