@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS dih_stream.live_inventory.tbl_matta_fair (
+CREATE TABLE IF NOT EXISTS  {{Table_Name}} (
   flight_num String,
   flight_date String,
   origin String,
