@@ -1,5 +1,3 @@
-WITH myvar
-AS (SELECT {{Table_Name}} AS value)
-DROP TABLE IF EXISTS myvar
+DROP TABLE IF EXISTS SUBSTRING({{Table_Name}}, 2, LEN(FieldName))
 
 
