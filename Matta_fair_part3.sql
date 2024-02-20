@@ -1,4 +1,4 @@
 
-DROP TABLE IF EXISTS {{Table_Name}};
+DROP TABLE IF EXISTS {Table_Name};
 
 
