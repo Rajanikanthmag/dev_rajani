@@ -1,5 +1,5 @@
 
-insert into dih_stream.live_inventory.tbl_matta_fair (flight_num,flight_date,origin,dest,dep_date,dep_time,ac_type,class,booked_count,available_count,capacity)
+insert into  {{Table_Name}} (flight_num,flight_date,origin,dest,dep_date,dep_time,ac_type,class,booked_count,available_count,capacity)
 select
 --processed_inventory_id as inv_id
 left(processed_inventory_id, len(processed_inventory_id) - 11) as flight_num
