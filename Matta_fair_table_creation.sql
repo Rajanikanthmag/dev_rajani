@@ -1,3 +1,3 @@
 WITH 
-  myvar AS (SELECT 'dih_stream.live_inventory.tbl_matta_fair' AS value)
+  myvar AS (SELECT  {{Table_Name}} AS value)
 SELECT * FROM myvar;
