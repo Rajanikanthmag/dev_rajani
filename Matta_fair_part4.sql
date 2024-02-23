@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS  {{Table_Name}} (
+CREATE TABLE IF NOT EXISTS  {{schema_name}}{{table_name}} (
   flight_num String,
   flight_date String,
   origin String,
