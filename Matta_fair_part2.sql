@@ -1,2 +1,2 @@
-USE CATALOG \{{dih_stream}};
+USE CATALOG r{{shema_name}};
 
