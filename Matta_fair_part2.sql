@@ -1,2 +1,2 @@
-USE CATALOG r{{schema_name}};
+USE CATALOG {{schema_name}};
 
