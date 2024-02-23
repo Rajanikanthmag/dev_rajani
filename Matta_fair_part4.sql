@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS substring({{table_name}},2,len({{table_name}})) (
+CREATE TABLE IF NOT EXISTS {{table_name}} (
   flight_num String,
   flight_date String,
   origin String,
